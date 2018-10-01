@@ -30,11 +30,11 @@ namespace hello_test
                 }
                 else if (computerNumber > userNumber) {
                     Console.WriteLine("Higher");
-                    continue;
+                 
                 }
-                else if (computerNumber < userNumber) {
+                else {
                     Console.WriteLine("Lower");
-                    continue;
+                    
                 }
 
             }
